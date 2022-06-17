@@ -148,3 +148,55 @@ label {
 .btn:hover {
     box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
 }
+
+
+/* Social Credit Styles */
+.social_media_div{
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+}
+.social_media_div li{
+    list-style: none;
+    margin-bottom: 20px;
+    background-color: #fff;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+    font-size: 20px;
+}
+.social_media_div li a {
+    text-decoration: none;
+}
+.social_media_div li a i {
+    color: black;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.12);
+}
+  
+.social_media_div li:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+/* Responsive Style */
+@media (max-width: 850px) {
+    .form {
+        width: 100vw;
+    }
+}
